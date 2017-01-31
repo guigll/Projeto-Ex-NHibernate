@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Cadastro.Models.CustomersViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Adicionar Novo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.customer_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.contact_person)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.postal_address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.physical_address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.contact_number)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.customer_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.contact_person)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.postal_address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.physical_address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.contact_number)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id = item.customer_id }) |
+            @Html.ActionLink("Detalhar", "Details", new { id = item.customer_id }) |
+            @Html.ActionLink("Deletar", "Delete", new { id = item.customer_id })
+        </td>
+    </tr>
+}
+
+</table>

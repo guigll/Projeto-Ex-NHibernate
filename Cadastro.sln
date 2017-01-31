@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro", "Cadastro\Cadastro.csproj", "{8D1AA657-EA7A-4986-80FA-8976BEBF0E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{1F547ED3-D73E-4929-8B89-D5A67B09D76F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{BAB47494-E0F3-4869-9F89-9D83EA7C585E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D1AA657-EA7A-4986-80FA-8976BEBF0E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1AA657-EA7A-4986-80FA-8976BEBF0E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1AA657-EA7A-4986-80FA-8976BEBF0E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1AA657-EA7A-4986-80FA-8976BEBF0E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F547ED3-D73E-4929-8B89-D5A67B09D76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F547ED3-D73E-4929-8B89-D5A67B09D76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F547ED3-D73E-4929-8B89-D5A67B09D76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F547ED3-D73E-4929-8B89-D5A67B09D76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB47494-E0F3-4869-9F89-9D83EA7C585E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB47494-E0F3-4869-9F89-9D83EA7C585E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB47494-E0F3-4869-9F89-9D83EA7C585E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB47494-E0F3-4869-9F89-9D83EA7C585E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+
+	
+EndGlobal

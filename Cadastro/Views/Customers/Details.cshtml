@@ -1,0 +1,74 @@
+﻿@model Cadastro.Models.CustomersViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalhes</h2>
+
+<div>
+    <h4></h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.customer_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.customer_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.contact_person)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.contact_person)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.postal_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.postal_address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.physical_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.physical_address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.contact_number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.contact_number)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.customer_id }) |
+    @Html.ActionLink("Página Inicial", "Index")
+</p>
